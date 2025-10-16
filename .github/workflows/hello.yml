@@ -5,4 +5,4 @@ jobs: # ジョブ
     runs-on: ubuntu-latest # ランナー
     steps: # ステップ
       - run: echo "Hello, world" # シェルコマンド
-      - uses: actions/checkout@v
+      - uses: actions/checkout@v4
